@@ -90,7 +90,50 @@ main {
     /*Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-}
+    display: flex;
+    flex-direction: column;
+    }
+
+    #signup {
+        background-size: cover;
+        background-position: 75%;
+        flex-grow: -1;
+    }
+
+    h2 {
+        color: #fafafa
+    }
+
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.6);
+    }
+     
+     .text-input {
+        color: #fafafa transparent;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+        font-size: 100%;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        margin: 20px;
+     }
+
+    .radio-button {
+        flex: space-between;
+    }
+
+    .join-button {
+        border-radius: 2px;
+        background-color: #454b1b;
+        color: #fafafa;
+        font-size: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin: 20px;
+    }
 
 #hero {
     height: 600px;
