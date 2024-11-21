@@ -85,7 +85,7 @@ nav {
 }
 
 
-/*Main content*/
+/* Main content */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -96,7 +96,7 @@ main {
     flex-direction: column;
 }
 
-/*Form*/
+/* Form */
 #signup {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
@@ -141,7 +141,6 @@ main {
     background-color: #454b1b;
     color: #fafafa;
 }
-
 
 #hero {
     height: 600px;
@@ -345,9 +344,6 @@ hr {
 .join-button:hover {
     background-color: #fafafa;
     color: #454b1b;
-}
-
-
 }
 
 /*media queries: laptops and desktops */
